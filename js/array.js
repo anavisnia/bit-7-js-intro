@@ -15,7 +15,7 @@ Saraso tipo kintamieji:
 // console.log(petriukoPazymaia);
 
 // suskaicioti pazymiu vidurki?
-pPazymiai = [2, 10, 7, 5, 10];
+pPazymiai = [2, 10, 7, 5];
 
 let suma = 0;
 suma = suma + pPazymiai[0];
