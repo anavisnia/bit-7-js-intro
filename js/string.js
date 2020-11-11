@@ -11,9 +11,9 @@ console.log(fraze);
 
 // Mother said "Dont't do it!"
 const mother1 = `"Mother said: "Don't do it!"`;
-const mother2 = "Mother said: \"Don't do it!.";
+const mother2 = "Mother said: \"Don't do it!\".";
 const mother3 = 'Mother said: "Don\'t do it!".';
-console.log(mother3);
+console.log(mother2);
 
 //  \ 
 const html = '<div>\
