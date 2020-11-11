@@ -29,3 +29,23 @@ const html2 = `<div>
 <a href="#">Don't Click</a>
 </div>`;
 console.log(html2);
+
+console.clear();
+// Joniukas ir Gretute ejo i miska.
+const berniukas = 'Joniukas';
+const mergaite = 'Gretute';
+const vieta = 'miska';
+const judejimoBudas = 'ejo';
+
+// const pasaka = berniukas + ' ir ' + mergaite + ' ' + judejimoBudas + ' i ' + vieta + '.';
+const pasaka = `${berniukas} ir ${mergaite} ${judejimoBudas} i ${vieta}.`;
+
+console.log(pasaka);
+
+// Chuck Norris
+const heroName = 'Chuck';
+const heroLastName = 'Norris';
+const birth = 1940;
+
+const heroSays = `${heroName} ${heroLastName} (${2020 - birth}).`;
+console.log(heroSays);
