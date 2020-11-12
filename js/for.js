@@ -58,3 +58,62 @@ for (let i = 0; i < miestai.length; i++) {
 }
 
 console.log('-----------------------------');
+/*
+Isvardinti saraso narius is galo
+*/
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(abc);
+
+for (let pozicija = abc.length - 1; pozicija >= 0; pozicija--) {
+    console.log(abc[pozicija]);
+}
+console.log('-----------------------------');
+console.clear();
+// istraukti is zodzio norimos reides pozicija
+
+// const text = 'dodekahedronas';
+const text = 'ottoman';
+
+console.log(text);
+console.log(text[0]);
+console.log(text[1]);
+console.log(text[2]);
+// ispauzdinti zodzio ilgi
+console.log(text.length);
+// atspausditi zodzio kiekviena raide
+for (let i=0; i<text.length; i++) {
+    console.log(text[i]);
+}
+
+console.log('-----------------------------');
+
+/*
+Duodamas zodis ir is jo reikia isrenkti kas antra raide ir ispauzdint kas gaunasi.
+pvz: abcdef -> bdf
+pvz: pomidoras (2) -> aiao
+pvz: pomidoras (3) -> mos
+pvz: pomidoras (4) -> ia
+pvz: pomidoras (5) -> d
+*/
+const myText = 'abcdef';
+let atsakymas = '';
+for (let i = 1; i <= myText.length; i = i + 2) {
+    raide = myText[i];
+    atsakymas = atsakymas + raide;
+    console.log(raide);
+}
+console.log(atsakymas);
+console.log('-----------------------------');
+
+// universalus sprendimas
+const zodis = 'pomidoras';
+const step = 4;
+const pirmRaidesPozicija = step - 1;
+let rez = '';
+
+for (i = pirmRaidesPozicija; i < zodis.length; i = i + step) {
+    const raides = zodis[i];
+    console.log(raides);
+    rez = rez + raides;
+}
+console.log(rez);
