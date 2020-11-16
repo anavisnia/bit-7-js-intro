@@ -55,11 +55,14 @@ pazymiuVydurkis([10, 10, 10, 10, 10, 10]);
 
 // pakelti kvadratu
 function skaiciusKv(skaicius) {
-    let kv = skaicius * skaicius;
-    console.log(kv);
+    const kv = skaicius * skaicius;
+    console.log(`${skaicius} -> ${kv}`);
+
+    return kv;
 }
 
-skaiciusKv(2);
-skaiciusKv(5);
-skaiciusKv(9);
-skaiciusKv(18);
+console.log(skaiciusKv(2));
+console.log(skaiciusKv(5));
+console.log(skaiciusKv(9));
+console.log(skaiciusKv(18));
+console.log(skaiciusKv(-5));
