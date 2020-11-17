@@ -33,12 +33,18 @@ function bigNum(list) {
     //return
     return biggestNum;
 }
+// demo funkcija
+function sum(a, b) { return a + b };
 console.log(bigNum('pomidoras'));
 console.log(bigNum(585));
 console.log(bigNum(true));
 console.log(bigNum(false));
 console.log(bigNum([]));
 console.log(bigNum([-Infinity, NaN, true, false, [], [7], [6, 1], undefined]));
+console.log(bigNum(sum));
+console.log(bigNum[sum]);
+console.log(bigNum({}));
+console.log(bigNum([{}, {}, {}]));
 
 console.log(bigNum([1]), '->', 1);
 console.log(bigNum([77]), '->', 77);
